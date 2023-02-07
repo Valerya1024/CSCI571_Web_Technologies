@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function fun() {
+            var btn = document.createElement("button");
+            btn.innerHTML = "Click me";
+            document.body.appendChild(btn);
+        }re = /\(?\d{3}\)?([-\/\.])\d{3}\1\d{4}/
+        var a = 1
+        var b = 2
+        var c = 3
+        a = b = c
+        console.log(a,b,c)
+
+        a = true
+        b = 1
+        c = 2
+        var d =a?b:c
+        console.log(d)
+    </script>
+</head>
+
+<body>
+<h2> It is an example of using the document.createElement() method. </h2>
+<h4> Click the below button to insert a new button element in the document. </h4>
+    <button onclick = "fun()"> Create Button </button>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calculator Demo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="demo_name">Demo</string>
+    <string name="activity_name">Activity</string>
+    <string name="service_name">Service</string>
+    <string name="broadcast_name">Broadcast Reciever</string>
+    <string name="fragment_name">Fragment</string>
+    <string name="uiControl_name">UI Controls</string>
+    <string name="event_name">Event Handling</string>
+    <string name="HTTP_name">HTTP Networking - JSON Parser</string>
+    <string name="activityMsg">Watch the toast messages on this screen and when you press back button as each event gets executed. After you press back button, this activity will be destroyed and hence rest of the events will be called.</string>
+    <string name="broadcastReceiverMsg">Plug in your power cable to see the Broadcast Receiver respond to broadcast message(s) from the system itself.</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="landscape_message">It\'s a landscape mode. Rotate the phone to change orientation and run a different fragment.</string>
+    <string name="portrait_message">It\'s a portrait mode. Rotate the phone to change orientation and run a different fragment.</string>
+    <string name="serviceMsg">Do not forget to stop the service or else it will keep running </string>
+</resources>

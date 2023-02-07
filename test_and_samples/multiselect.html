@@ -1,0 +1,18 @@
+<HTML><HEAD><TITLE>Using Multiple Selection Lists</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+function displaySelectionValues(objectName) { var ans = ""
+for (var i = 0; i < objectName.length; i++) {
+if(objectName.options[i].selected) {
+ans += objectName.options[i].text + "<BR>" } }
+myWin = window.open("", "Selections", 
+"height=200,width=400")
+myWin.document.write("you picked these teams<BR>")
+myWin.document.write(ans) }
+</SCRIPT></HEAD><BODY>
+<FORM NAME="myform">
+<SELECT NAME="teams" size=3 multiple>
+<OPTION value="dodgers">Dodgers<OPTION value="yankees">Yankees
+<OPTION value="angels">Angels </SELECT><BR>
+<INPUT TYPE="button" value="Show Selected Items" 
+onClick="displaySelectionValues(this.form.teams)">
+</FORM></BODY></HTML>

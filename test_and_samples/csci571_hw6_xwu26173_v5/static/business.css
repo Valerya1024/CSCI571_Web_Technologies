@@ -1,0 +1,283 @@
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #e2e2e2;
+}
+
+div.header {
+	width: 700px;
+	height: 140px;
+	font-family: Calibri;
+	color: #ffffff;
+}
+
+div.input_card {
+	width: 700px;
+	height: 600px;
+	border: solid 5px #cecece;
+	margin: 0px auto;
+	background-color: #ffffff;
+}
+
+div.form {
+	width: 600px;
+	height: 430px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+div.table {
+	width: 1400px;
+	margin: 50px auto;
+	background-color: #ffffff;
+}
+
+div.output_card {
+	width: 960px;
+	height: 960px;
+	border: solid 1px #cecece;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+div.image_frame {
+	width: 310px;
+	height: 430px;
+	border: solid 2px #cecece;
+	margin: auto;
+	padding-bottom: 5px;
+	background-color: #ffffff;
+	font-family: Arial;
+	font-weight: 700;
+	text-align: center
+}
+
+div.empty {
+	width: 1000px;
+	border: solid 1px #cecece;
+	margin: 59px auto;
+	background-color: #ffffff;
+	font-family: Lato;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 500;
+	margin: 20px 50px;
+}
+
+h2 {
+	font-weight: 500;
+	margin: 30px 50px;
+}
+
+img.header {
+	width: 700px;
+	height: 140px;
+	object-fit: cover;
+	object-position: center 95%;
+}
+
+img.table {
+	width: 110px;
+	height: 110px;
+	object-fit: cover;
+	object-position: center;
+}
+
+img.output_card {
+	width: 310px;
+	height: 410px;
+	object-fit: scale-down;
+	object-position: top center;
+}
+
+form {
+	width: 600px;
+	height: 400px;
+}
+
+input {
+	height: 30px;
+	font-family: Arial;
+	border: solid 2px #e2e2e2;
+}
+
+input:focus {
+	border: solid 3px #000000;
+}
+
+input.required {
+	width: 590px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+input.distance {
+	width: 34%;
+	margin: 10px auto;
+	margin-bottom: 25px;
+}
+
+input[type="checkbox"] {
+	vertical-align: middle;
+	margin: 15px auto;
+	margin-bottom: 15px;
+}
+
+input.submit {
+	background-color: #4563a7;
+	border: 0px;
+	border-bottom: solid 5px #2f4373;
+	width: 100px;
+	height: 40px;
+	font-family: Lato;
+	margin-top: 10px;
+}
+
+input.submit:hover {
+	background-color: #5571b1;
+}
+
+input.clear {
+	background-color: #ffae04;
+	border: 0px;
+	border-bottom: solid 5px #fd790d;
+	width: 100px;
+	height: 40px;
+	font-family: Lato;
+	margin-top: 10px;
+
+}
+
+input.clear:hover {
+	background-color: #dd9800;
+}
+
+select {
+	height: 36px;
+	width: 50%;
+	border: solid 2px #e2e2e2;
+	margin-left: 80px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	font-family: Arial;
+	background-color: #ffffff;
+}
+
+select:focus {
+	border: solid 3px #000000;
+}
+
+option{
+	color: black;
+	background-color: #fdf6ef;
+	line-height: 20px;
+}
+
+hr {
+	width: 600px;
+	background-color: #4563a7;
+	border: 1px solid #4563a7;
+	margin: 0px;
+	margin-top: 0px;
+}
+
+label.input_card {
+	color: #4464a6;
+	font-family: Lato;
+	margin-top: 0px;
+	line-height: 1;
+	margin-right: 170px;
+	font-weight: 500;
+}
+
+label.open {
+	font-family: Lato;
+	background-color: #007600;
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+label.closed {
+	font-family: Lato;
+	background-color: #e64d53;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+p.output_card {
+	font-family: Calibri;
+	font-size: 35px;
+	color: #000000;
+	font-weight: 600;
+	margin-top: 17px;
+	margin-bottom: 0px;
+}
+
+p.output_info {
+	font-family: Lato;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+a {
+	font-family: Lato; 
+	font-size: 22px;
+	text-decoration: none;
+}
+
+a.table {
+	color: #000000;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a.table:hover {
+	color: #cecece;
+}
+
+a.table:active {
+	color: #cecece;
+}
+
+a.table:visited {
+	color: #000000;
+}
+
+span {
+	color: #ec1c24;
+}
+
+table {
+	text-align: center;
+	width: 1400px;
+	margin: auto;
+	background-color: #ffffff;
+	border-collapse: collapse;
+}
+
+th {
+	height: 60px;
+	border: 1px solid #e2e2e2;
+	background-color: #4563a7;
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+td {
+	height: 120px;
+	border: 1px solid #e2e2e2;
+	text-align: center;
+	font-family: Lato;
+	font-size: 16px;
+}
